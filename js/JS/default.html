@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script type="text/javascript">
+      //
+      document.write("<h1>Hello World</h1>");
+      document.write("<h2>Hello World</h2>");
+      var num = 14;
+
+      //Even or Odd
+      if (num % 2 == 0) {
+        document.write("EVEN");
+      } else {
+        document.write("Odd");
+      }
+
+      var day = 1;
+      switch (day) {
+        case 1:
+          document.write("<h2> Sunday</h2>");
+          break;
+        case 2:
+          document.write("<h3> Monday </h3>");
+      }
+
+      function add(x, y) {
+        var total = x + y;
+        document.write("<h1>Addtion result: " + total);
+      }
+      //dynamically typed
+      add("Naga", "Malli");
+
+      var arr = ["Apple", "Volvo", "BMW"];
+      console.log(arr[0]);
+
+      for (var i = 0; i < arr.length; i++) {
+        document.write("<h2>" + arr[i] + "</h2>");
+      }
+      arr.push("Mango");
+
+      // Objects
+      var car = {
+        car_brand: "Tesla",
+        car_model: "Model 3",
+        price: 35000,
+
+        teslaAutoPilot: function () {
+          document.write("My method");
+        },
+      };
+
+      //after 100 lines of code
+      // u can still add properties outside of object
+      car.fueltype = "Electric"; //if we comment, output will be undefined
+
+      document.write(car.fueltype);
+      delete car.price; // deleting properties
+      // we can change data type on the fly
+    </script>
+  </head>
+  <body></body>
+</html>

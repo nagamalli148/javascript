@@ -1,0 +1,101 @@
+Node JS - server side to make dynamic web apps
+React - Frontend - Web & Mobile Apps
+React Native - Mobile apps 
+Angular - Open source dynamic mobile & web apps (MVC pattern)
+Electron JS: Desktop Apps for standlone system
+React 360 - 
+TensorFlow.js - Machine Learning Platform
+
+
+VAR - CAN DECLARE MULTIPLE TIMES WITH SAME VAR NAME - TAKES LAST DECLARED VALUE
+
+LET - CAN'T DECLARE SECOND TIME WITH SAME NAME, CAN ASSIGN MULTIPLE TIMES AND CALL IT
+let num1=10;
+let num1=20 - wrong
+num1=20 - works
+
+CONST - CAN DECLARE ASSIGN ONLY ONCE
+=====================================
+VARIABLE NAMES
+-> CAN'T START WITH A NUMBER (var 2num1)
+-> CAN USE ONLY $ SYMBOL, UNDERSCORE (var name$_4="")
+-> WILL BE CASE SENSITIVE
+-> Camel Case convention is preferable STARTING LETTER WILL BE CAPITALS EXCEPT FIRSTWORD(eg:firstName)
+
+document - treats like an object to the entire web page
+
+prints syntaxes
+
+alert() - to notify 
+document.write() - for web pages
+console.log()  - for consoles
+
+
+LOOPS: 
+1) If&else - u cannot have else block without If
+
+ //Even or Odd
+      if (num % 2 == 0) {
+        document.write("EVEN");
+      } else {
+        document.write("Odd");
+      }
+
+SWITCH:
+  
+    var day = 1;
+      switch (day) {
+        case 1:
+          document.write("<h2> Sunday</h2>");
+        case 2:
+          document.write("<h3> Monday </h3>");
+}
+=================================================
+Functions:
+-> Block of code designed to perform a particular task
+  
+
+
+DOM - Doc. Object Model 
+=======================
+BOM - Browser Object Model
+
+HOISTING:
+Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+
+In short: a variable can be used before it has been declared.
+
+=================================================================
+-> Javascript is loosely typed - we don't have to define data type
+-> Dynamically typed - automatically change data type based on declaration of var 
+
+Variable - to store data
+
+"VAR" BUT NOT "LET","CONST"
+
+data types in js:
+Primitive: (primary)   & (null,undefined)
+
+1) Number 2) String 3) Boolean
+
+	1) Number : 
+eg: var x=87, var y=45.6
+	2) String
+	Eg: var x='xyz', var y="xyz"
+    3)   
+Composite: - (combing/grouping primitive data types)
+
+1) Array 2) Object
+
+Special Data Types
+
+	1) Undefined
+	2) Null
+
+
+vh - viewport height
+
+
+
+
+

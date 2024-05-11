@@ -1,0 +1,16 @@
+INTERVIEW questions:
+
+1) == vs ===
+
+== : 
+1)If same type, direct comparision
+2)If not same type =>convert both to same type=>compare values
+
+=== :
+
+1) It will compare data types, -> False
+
+
+Why JS is dynamically typed language?
+
+-> If we can change variable type

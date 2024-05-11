@@ -1,0 +1,15 @@
+conversion : bringing the data from one source to another source (table to cloud table)
+
+Legacy system : Not oracle system (old soft/hardware)
+Third party system :
+
+Conversion in oracle Cloud/Fusion
+-> ADF DI - Desktop integration
+Template download from cloud ERP and filled & upload directly to base tables
+
+-> ADF BC - business components
+WS can be used to load the data into the interface and program pulls the data & load to base tables
+
+-> FBDI- file(excel) based data import
+- OER website - uploaded to cloud table
+
