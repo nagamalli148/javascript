@@ -1,0 +1,16 @@
+ <script>
+      const numbers = [1, 2, 3, 4];
+      const squares = numbers.map(square);
+      console.log(squares);
+
+      function square(element) {
+        return Math.pow(element, 2);
+      }
+      const students = ["Spongebob", "Patrick", "Squidward"];
+      const studentsLower = students.map(lower);
+
+      function lower(element) {
+        return element.toUpperCase();
+      }
+      console.log(studentsLower);
+    </script>
